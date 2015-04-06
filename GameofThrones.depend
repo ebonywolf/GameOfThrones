@@ -1,0 +1,376 @@
+# depslib dependency file v1.0
+1428261211 source:c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\coloredshape.cpp
+	"ColoredShape.h"
+	<list>
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<ProjGaia/Tools/Polygon.h>
+
+1428261782 c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\coloredshape.h
+	<SFML/Graphics/ConvexShape.hpp>
+	<ProjGaia/Tools/Coord.h>
+	<ProjGaia/Tools/Polygon.h>
+	<ProjGaia/Tools/LineSeg.h>
+	"DrawableSprite.h"
+
+1428008733 c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\drawablesprite.h
+	<ProjGaia/Graphics/Sprite.h>
+	<SFML/Graphics/Drawable.hpp>
+
+1428261294 source:c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\drawableline.cpp
+	"DrawableLine.h"
+	<ProjGaia/Tools/Angle.h>
+
+1428261282 c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\drawableline.h
+	<ProjGaia/Tools/LineSeg.h>
+	<SFML/Graphics/RectangleShape.hpp>
+	"ColoredShape.h"
+
+1428261606 source:c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\drawablesprite.cpp
+	"DrawableSprite.h"
+	<SFML/Graphics/Drawable.hpp>
+
+1428008522 source:c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\hollowshape.cpp
+	"HollowShape.h"
+	<ProjGaia/tools/Angle.h>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1428008728 c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\hollowshape.h
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<ProjGaia/Tools/Coord.h>
+	<ProjGaia/Tools/Polygon.h>
+	<ProjGaia/Tools/LineSeg.h>
+	<list>
+	"DrawableSprite.h"
+
+1428274278 source:c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\renderer.cpp
+	"Renderer.h"
+	<cmath>
+	<ctime>
+	<cstdlib>
+	<windows.h>
+	<ProjGaia/Tools/Coord.h>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/KeyBoard.hpp>
+	<ProjGaia/Tools/KeyBoardEvent.h>
+	<ProjGaia/Tools/NeedsUpdate.h>
+
+1428261639 c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\renderer.h
+	<SFML/Window.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<ProjGaia/Graphics/KeyBoardReader.h>
+	<ProjGaia/Graphics/MouseReader.h>
+	<iostream>
+	<list>
+	<ProjGaia/Tools/Observer.h>
+	<ProjGaia/Tools/MouseEvent.h>
+	<ProjGaia/SFML/DrawableSprite.h>
+	<ProjGaia/Graphics/Camera.h>
+	<ProjGaia/Graphics/DrawableType.h>
+	<ProjGaia/Graphics/PainterType.h>
+	<ProjGaia/Graphics/WindowType.h>
+
+1428009022 source:c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\serialize.cpp
+	"Serialize.h"
+
+1428008692 c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\serialize.h
+
+1428009169 source:c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\staticimage.cpp
+	"StaticImage.h"
+
+1428008669 c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\staticimage.h
+	<ProjGaia/Graphics/DrawableType.h>
+	<ProjGaia/SFML/DrawableSprite.h>
+
+1428261698 source:c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\texturedsprite.cpp
+	"TexturedSprite.h"
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1428261757 c:\dropbox\wagner\c++\projgaiaimplementation\projgaia\sfml\texturedsprite.h
+	"DrawableSprite.h"
+	<iostream>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Sprite.hpp>
+
+1427224776 source:c:\dropbox\wagner\c++\gameofthrones\ai\randyai.cpp
+	"RandyAI.h"
+	<iostream>
+
+1427243511 c:\dropbox\wagner\c++\gameofthrones\ai\randyai.h
+	"../EffectivePlayer.h"
+
+1427243739 c:\dropbox\wagner\c++\gameofthrones\effectiveplayer.h
+	"Player.h"
+
+1427243370 c:\dropbox\wagner\c++\gameofthrones\player.h
+	<iostream>
+	<list>
+	<mutex>
+	"GameEvent.h"
+	"TurnEvent.h"
+	"Map.h"
+	"GameHouses.h"
+
+1426688539 c:\dropbox\wagner\c++\gameofthrones\gameevent.h
+
+1427224956 c:\dropbox\wagner\c++\gameofthrones\turnevent.h
+
+1427215412 c:\dropbox\wagner\c++\gameofthrones\map.h
+	"Territory.h"
+	<list>
+	<iostream>
+
+1427243281 c:\dropbox\wagner\c++\gameofthrones\territory.h
+	<iostream>
+	<list>
+	"Unit.h"
+
+1427242914 c:\dropbox\wagner\c++\gameofthrones\unit.h
+	<iostream>
+
+1427215760 c:\dropbox\wagner\c++\gameofthrones\gamehouses.h
+
+1428276757 source:c:\dropbox\wagner\c++\gameofthrones\basicrenderer.cpp
+	"BasicRenderer.h"
+	<windows.h>
+
+1428276451 c:\dropbox\wagner\c++\gameofthrones\basicrenderer.h
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Window.hpp>
+	<SFML/OpenGL.hpp>
+	<SFML/Graphics.hpp>
+	<SFML/System/Clock.hpp>
+	<ProjGaia/Tools/KeyBoardEvent.h>
+	<ProjGaia/Tools/NeedsUpdate.h>
+	<ProjGaia/Tools/Observer.h>
+	<ProjGaia/Graphics/Camera.h>
+	<ProjGaia/Graphics/KeyBoardReader.h>
+	<ProjGaia/Graphics/MouseReader.h>
+	<list>
+	<thread>
+
+1427242670 source:c:\dropbox\wagner\c++\gameofthrones\battle.cpp
+	"Battle.h"
+
+1427242670 c:\dropbox\wagner\c++\gameofthrones\battle.h
+
+1428008522 source:c:\dropbox\wagner\c++\gameofthrones\debug.cpp
+	"Debug.h"
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<ProjGaia/Tools/LineSeg.h>
+	<ProjGaia/Tools/Coord.h>
+	<ProjGaia/Tools/Angle.h>
+	<ProjGaia/SFML/Renderer.h>
+
+1428009211 c:\dropbox\wagner\c++\gameofthrones\debug.h
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<ProjGaia/Tools/LineSeg.h>
+	<ProjGaia/Tools/Coord.h>
+	<ProjGaia/SFML/Renderer.h>
+
+1426722062 source:c:\dropbox\wagner\c++\gameofthrones\effect.cpp
+	"Effect.h"
+
+1426722062 c:\dropbox\wagner\c++\gameofthrones\effect.h
+
+1426767453 source:c:\dropbox\wagner\c++\gameofthrones\effectcard.cpp
+	"EffectCard.h"
+
+1426767958 c:\dropbox\wagner\c++\gameofthrones\effectcard.h
+	<list>
+
+1427243830 source:c:\dropbox\wagner\c++\gameofthrones\effectiveplayer.cpp
+	"EffectivePlayer.h"
+
+1427243488 source:c:\dropbox\wagner\c++\gameofthrones\factory.cpp
+	"Factory.h"
+	<iostream>
+	"AI/RandyAi.h"
+	"GamePlayers.h"
+	"Territory.h"
+	"GameMap.h"
+	"GameRules.h"
+	"EffectCard.h"
+	"Deck.h"
+	"GameDeck.h"
+	"Game.h"
+
+1427225262 c:\dropbox\wagner\c++\gameofthrones\factory.h
+
+1427243630 c:\dropbox\wagner\c++\gameofthrones\gameplayers.h
+	<list>
+	"GameEvent.h"
+	"House.h"
+	"EffectivePlayer.h"
+	"TurnEvent.h"
+
+1426722308 c:\dropbox\wagner\c++\gameofthrones\house.h
+	<iostream>
+	<list>
+	"Deck.h"
+	"General.h"
+
+1426768101 c:\dropbox\wagner\c++\gameofthrones\deck.h
+	<deque>
+	<stdlib.h>
+	<iostream>
+
+1424814578 c:\dropbox\wagner\c++\gameofthrones\general.h
+
+1428281638 c:\dropbox\wagner\c++\gameofthrones\gamemap.h
+	"Map.h"
+	"Territory.h"
+
+1426691236 c:\dropbox\wagner\c++\gameofthrones\gamerules.h
+
+1428009223 c:\dropbox\wagner\c++\gameofthrones\gamedeck.h
+	<ProjGaia/Tools/Observer.h>
+	"EffectCard.h"
+	<list>
+	"GameEvent.h"
+	"Deck.h"
+
+1427243461 c:\dropbox\wagner\c++\gameofthrones\game.h
+	<list>
+	"GamePlayers.h"
+	"EffectivePlayer.h"
+	"GameMap.h"
+	"GameRules.h"
+	"GameDeck.h"
+	"GameEvent.h"
+	"Deck.h"
+
+1427226909 source:c:\dropbox\wagner\c++\gameofthrones\game.cpp
+	"Game.h"
+	<thread>
+
+1427226477 source:c:\dropbox\wagner\c++\gameofthrones\gamedeck.cpp
+	"GameDeck.h"
+
+1426687240 source:c:\dropbox\wagner\c++\gameofthrones\gameevent.cpp
+	"GameEvent.h"
+
+1427215760 source:c:\dropbox\wagner\c++\gameofthrones\gamehouses.cpp
+	"GameHouses.h"
+
+1427215426 source:c:\dropbox\wagner\c++\gameofthrones\gamemap.cpp
+	"GameMap.h"
+
+1427243641 source:c:\dropbox\wagner\c++\gameofthrones\gameplayers.cpp
+	"GamePlayers.h"
+	<thread>
+
+1426688539 source:c:\dropbox\wagner\c++\gameofthrones\gamerules.cpp
+	"GameRules.h"
+
+1424814578 source:c:\dropbox\wagner\c++\gameofthrones\general.cpp
+	"General.h"
+
+1428281828 source:c:\dropbox\wagner\c++\gameofthrones\guimap.cpp
+	"GuiMap.h"
+
+1428281678 c:\dropbox\wagner\c++\gameofthrones\guimap.h
+	"GameMap.h"
+	"GuiTerritory.h"
+	<ProjGaia/Graphics/PainterType.h>
+	<ProjGaia/Graphics/DrawableType.h>
+	<ProjGaia/Tools/Coord.h>
+	<iostream>
+	<list>
+
+1428281772 c:\dropbox\wagner\c++\gameofthrones\guiterritory.h
+	"Territory.h"
+	<ProjGaia/Graphics/DrawableType.h>
+	<iostream>
+
+1428281706 source:c:\dropbox\wagner\c++\gameofthrones\guiterritory.cpp
+	"GuiTerritory.h"
+
+1426722351 source:c:\dropbox\wagner\c++\gameofthrones\house.cpp
+	"House.h"
+
+1428279527 source:c:\dropbox\wagner\c++\gameofthrones\main.cpp
+	"Factory.h"
+	"Game.h"
+	"MapCreator.h"
+	<ProjGaia/Graphics/Camera.h>
+	<ProjGaia/Tools/Coord.h>
+	<ProjGaia/SFML/Renderer.h>
+	<ProjGaia/SFML/TexturedSprite.h>
+	<ProjGaia/SFML/StaticImage.h>
+	<SFML/Graphics/Texture.hpp>
+	<ProjGaia/Tools/CameraMouseControl.h>
+	<ProjGaia/Tools/KeyBoardEvent.h>
+	<ProjGaia/Tools/Listener.h>
+	"BasicRenderer.h"
+
+1428010879 c:\dropbox\wagner\c++\gameofthrones\mapcreator.h
+	<ProjGaia/Tools/Listener.h>
+	<ProjGaia/Tools/MouseEvent.h>
+	<iostream>
+	<list>
+	<vector>
+	<fstream>
+	<ProjGaia/Tools/Coord.h>
+
+1427215443 source:c:\dropbox\wagner\c++\gameofthrones\map.cpp
+	"Map.h"
+
+1428009328 source:c:\dropbox\wagner\c++\gameofthrones\mapcreator.cpp
+	"MapCreator.h"
+
+1424814578 source:c:\dropbox\wagner\c++\gameofthrones\moveorder.cpp
+	"MoveOrder.h"
+
+1424814578 c:\dropbox\wagner\c++\gameofthrones\moveorder.h
+
+1424814578 source:c:\dropbox\wagner\c++\gameofthrones\order.cpp
+	"Order.h"
+
+1424814578 c:\dropbox\wagner\c++\gameofthrones\order.h
+
+1424814578 source:c:\dropbox\wagner\c++\gameofthrones\pillageorder.cpp
+	"PillageOrder.h"
+
+1424814578 c:\dropbox\wagner\c++\gameofthrones\pillageorder.h
+
+1427243790 source:c:\dropbox\wagner\c++\gameofthrones\player.cpp
+	"Player.h"
+
+1428009498 source:c:\dropbox\wagner\c++\gameofthrones\polygoncreator.cpp
+	"PolygonCreator.h"
+	<ProjGaia/SFML/Renderer.h>
+	<math.h>
+	<ProjGaia/SFML/ColoredShape.h>
+	<ProjGaia/Tools/Coord.h>
+	<SFML/Graphics/ConvexShape.hpp>
+	<ProjGaia/SFML/ColoredShape.h>
+	<fstream>
+
+1428009472 c:\dropbox\wagner\c++\gameofthrones\polygoncreator.h
+	<iostream>
+	<ProjGaia/Tools/Listener.h>
+	<ProjGaia/Tools/MouseEvent.h>
+	<list>
+	"ProjGaia/Tools/LineSeg.h"
+	<fstream>
+	"ProjGaia/Tools/Polygon.h"
+	<ProjGaia/SFML/DrawableLine.h>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+
+1426688912 source:c:\dropbox\wagner\c++\gameofthrones\territory.cpp
+	"Territory.h"
+
+1426768977 source:c:\dropbox\wagner\c++\gameofthrones\turnevent.cpp
+	"TurnEvent.h"
+
+1427242840 source:c:\dropbox\wagner\c++\gameofthrones\unit.cpp
+	"Unit.h"
+
